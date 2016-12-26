@@ -1,0 +1,17 @@
+{
+  "name": "Quench",
+  "description": "A Gulp file and project generator.",
+  "main": "gulpfile.js",
+  "authors": [
+    "Quench"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
