@@ -48,7 +48,22 @@
 		}
 	}
 	&-heading{
-
+		padding: 10px 60px;
+		background-color: $brand-primary-dark;
+		color: #fff;
+		font-size: 25px;
+		text-transform: uppercase;
+		&:after{
+			content: "";
+			position: relative;
+			bottom: -60px;
+			left: -20px;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 18px 14px 0 14px;
+			border-color: $brand-primary-dark transparent transparent transparent;
+		}
 	}
 
 	&-desc{
